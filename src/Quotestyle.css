@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2014/12/Beautiful-flower-field-wallpaper-desktop-background-images.jpg");
+}
+.quote {
+    background: url(./assets/bg.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+.quote small {
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+	display: block;
+	border: 2px solid #008CBA;
+	background: transparent;
+	padding: 10px 15px;
+	color: rgb(243, 240, 252)!important;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background: #cae5ef;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+body{
+background-image: url(http://www.pixelstalk.net/wp-content/uploads/2014/12/Beautiful-flower-field-wallpaper-desktop-background-images.jpg) !important;
+}
+.aboutdiv
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:1000px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 black;
+}
